@@ -1,3 +1,10 @@
+//.map()
+// Sintaxis: array.map(callback(currentValue[, index[, array]])[, thisArg])
+// Descripción: Crea un nuevo array con los resultados de aplicar una función a cada elemento del array original.
+// Notas: Muy útil para transformar arrays. El callback debe retornar un valor para cada elemento; si no retorna nada, ese elemento será undefined en el array resultante.
+// Detalle técnico: Siempre devuelve un array de la misma longitud que el original. Omite huecos en arrays dispersos (sparse arrays), igual que forEach y filter.
+
+
 // 1.
 const numbers = [1, 2, 3, 4];
 const doubled = numbers.map(n => n * 2);
