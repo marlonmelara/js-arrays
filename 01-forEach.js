@@ -4,6 +4,7 @@
 // Notas: No se debe usar forEach si se quiere crear un nuevo array; para eso es mejor map.
 // Es genérico: puede usarse con objetos array-like, no solo con instancias de Array. El thisArg no aplica si el callback es una arrow function (usa el this léxico).
 
+
 // 1.
 const fruits = ['apple', 'banana', 'cherry'];
 fruits.forEach(fruit => console.log(fruit));

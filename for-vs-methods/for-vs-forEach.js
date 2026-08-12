@@ -37,11 +37,11 @@ for (let i = 0; i < nums.length; i++) {
 // Output: 2 4 6
 
 console.log("-- Con método .forEach() --");
-nums.forEach(element => console.log(element * 2));
+nums.forEach(n => console.log(n * 2));
 // Output: 2 4 6
 
-nums.forEach((element, index) => {
-  console.log(`${index}: ${element * 2}`)
+nums.forEach((n, index) => {
+  console.log(`${index}: ${n * 2}`)
 }
 );
 // Output:
@@ -65,7 +65,6 @@ for (let i = 0; i < names.length; i++) {
 console.log("-- Con método .forEach() --");
 names.forEach(name => {
   console.log(`Hola, ${name.toUpperCase()}`);
-
 });
 // Output:
 // "Hola, ANA"

@@ -19,19 +19,42 @@ positions.
 | 7 | `Array.prototype.find()` | Find the first element that shares its initial letter with the previous one. |
 | 8 | `Array.prototype.filter()` | Extract only the numbers greater than the number that precedes them. |
 
+## for-vs-methods
+
+Side-by-side comparisons between the traditional `for` loop and each array
+method, to understand when a loop is equivalent (or not) to a method.
+
+| # | File | Comparison |
+|---|------|-----------|
+| 1 | `for-vs-forEach.js` | `for` loop vs `Array.prototype.forEach()`. |
+
 ## Getting Started
 
 1. Make sure you have [Node.js](https://nodejs.org) installed (v18 or later recommended).
 2. Clone the repository and open it in your editor.
-3. Open `array-exercises.js`, read each challenge, and replace `/* Tu código aquí */`
+3. Open `exercises/array-exercises.js`, read each challenge, and replace `/* Tu código aquí */`
    with your own implementation.
+
+## Project Structure
+
+```
+js-arrays/
+├── 01-forEach.js          # Method reference files
+├── 02-map.js
+├── 03-findIndex.js
+├── for-vs-methods/        # for loop vs array method comparisons
+│   └── for-vs-forEach.js
+├── exercises/             # Exercise sheets
+│   └── array-exercises.js
+└── README.md
+```
 
 ## How to Verify Your Solutions
 
 The file is plain JavaScript, so you can run your code at any time:
 
 ```bash
-node array-exercises.js
+node exercises/array-exercises.js
 ```
 
 Each exercise includes a comment showing the **expected result** below it. Compare
