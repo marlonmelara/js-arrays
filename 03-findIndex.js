@@ -5,7 +5,7 @@
 // Igual que find(), sí visita índices vacíos en arrays dispersos (sparse arrays) — no los omite como forEach, map o filter.
 
 
-// 1.
+// 1. Uso general
 const numbers = [1, 2, 3, 4];
 const index = numbers.findIndex(n => n > 2);
 console.log(index); //Output: 2

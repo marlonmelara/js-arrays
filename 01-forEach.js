@@ -5,7 +5,7 @@
 // Es genérico: puede usarse con objetos array-like, no solo con instancias de Array. El thisArg no aplica si el callback es una arrow function (usa el this léxico).
 
 
-// 1.
+// 1. Uso general
 const fruits = ['apple', 'banana', 'cherry'];
 fruits.forEach(fruit => console.log(fruit));
 // Output: apple banana cherry

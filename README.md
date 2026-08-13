@@ -8,25 +8,25 @@ positions.
 
 ## Methods Covered
 
-| # | Method | Challenge |
-|---|--------|-----------|
-| 1 | `Array.prototype.map()` | Transform elements based on their position (uppercase even indices, lowercase odd ones). |
-| 2 | `Array.prototype.forEach()` | Check whether a sequence is strictly ascending. |
-| 3 | `Array.prototype.findIndex()` | Find the position of the first word shorter than the next one. |
-| 4 | `Array.prototype.some()` | Determine if any word is shorter than the word preceding it. |
-| 5 | `Array.prototype.every()` | Verify that all numbers are strictly ascending. |
-| 6 | `Array.prototype.reduce()` | Flatten a nested array of arrays into a single-level array. |
-| 7 | `Array.prototype.find()` | Find the first element that shares its initial letter with the previous one. |
-| 8 | `Array.prototype.filter()` | Extract only the numbers greater than the number that precedes them. |
+| #   | Method                        | Challenge                                                                                |
+| --- | ----------------------------- | ---------------------------------------------------------------------------------------- |
+| 1   | `Array.prototype.forEach()`   | Check whether a sequence is strictly ascending.                                          |
+| 2   | `Array.prototype.map()`       | Transform elements based on their position (uppercase even indices, lowercase odd ones). |
+| 3   | `Array.prototype.findIndex()` | Find the position of the first word shorter than the next one.                           |
+| 4   | `Array.prototype.some()`      | Determine if any word is shorter than the word preceding it.                             |
+| 5   | `Array.prototype.every()`     | Verify that all numbers are strictly ascending.                                          |
+| 6   | `Array.prototype.reduce()`    | Flatten a nested array of arrays into a single-level array.                              |
+| 7   | `Array.prototype.find()`      | Find the first element that shares its initial letter with the previous one.             |
+| 8   | `Array.prototype.filter()`    | Extract only the numbers greater than the number that precedes them.                     |
 
 ## for-vs-methods
 
 Side-by-side comparisons between the traditional `for` loop and each array
 method, to understand when a loop is equivalent (or not) to a method.
 
-| # | File | Comparison |
-|---|------|-----------|
-| 1 | `for-vs-forEach.js` | `for` loop vs `Array.prototype.forEach()`. |
+| #   | File                | Comparison                                 |
+| --- | ------------------- | ------------------------------------------ |
+| 1   | `for-vs-forEach.js` | `for` loop vs `Array.prototype.forEach()`. |
 
 ## Getting Started
 

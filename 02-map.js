@@ -5,7 +5,7 @@
 // Detalle técnico: Siempre devuelve un array de la misma longitud que el original. Omite huecos en arrays dispersos (sparse arrays), igual que forEach y filter.
 
 
-// 1.
+// 1. Uso general
 const numbers = [1, 2, 3, 4];
 const doubled = numbers.map(n => n * 2);
 console.log(doubled); //Output: [2, 4, 6, 8]
@@ -21,6 +21,7 @@ console.log(userRankings);
 // 3. Uso de 'array': Calculando el porcentaje de cada nota basado en el total de evaluaciones
 const scores = [10, 20, 30];
 const scoreReports = scores.map((score, index, array) => {
+  // Podemos acceder a la longitud del arreglo original sin referenciar la variable externa
   const isLastElement = index === array.length - 1;
   const status = isLastElement ? 'Final' : 'Partial';
 return `Score: ${score} (${status})`; });
