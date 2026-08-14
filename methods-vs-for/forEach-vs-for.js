@@ -1,5 +1,6 @@
 // Ejercicios de comparación entre ciclo for y .forEach()
-// Ejercicio 1:
+
+// Ejercicio 1: Imprimir las frutas dentro del array una por una
 const fruits = ["apple", "banana", "cherry"];
 
 console.log("-- Con ciclo for --");
@@ -12,22 +13,22 @@ for (let i = 0; i < fruits.length; i++) {
 // cherry
 
 console.log("-- Con método .forEach() --");
-fruits.forEach(element => console.log(element))
+fruits.forEach(fruit => console.log(fruit));
 // Output:
 // apple
 // banana
 // cherry
 
-fruits.forEach((element, index) => {
-  console.log(`${index + 1}: ${element}`)
+fruits.forEach((fruit, i) => {
+  console.log(`${i + 1}: ${fruit}`)
 }
 );
 // Output:
 // 1: apple
 // 2: banana
-//3: cherry
+// 3: cherry
 
-// Ejercicio 2:
+// Ejercicio 2: Imprimir el doble de los números
 const nums = [ 1, 2, 3]
 
 console.log("-- Con ciclo for --");
@@ -49,7 +50,7 @@ nums.forEach((n, index) => {
 // 1: 4
 // 2: 6
 
-// Ejercicio 3:
+// Ejercicio 3: Saludar con los nombres en mayúsculas
 const names = ["ana", "pedro", "lucia", "juan"];
 
 console.log("-- Con ciclo for --");
@@ -71,3 +72,23 @@ names.forEach(name => {
 // "Hola, PEDRO"
 // "Hola, LUCIA"
 // "Hola, JUAN"
+
+// Ejercicio 4: Obtener el promedio de las notas
+const grades = [8, 9, 10, 7, 6];
+
+console.log("-- Con ciclo for --");
+let sum = 0;
+for (let i = 0; i < grades.length; i++) {
+  sum= grades[i] + sum;
+}
+let avgGrade= sum/grades.length;
+console.log(`La nota promedio es ${avgGrade}`);
+// Output: La nota promedio es 8
+
+console.log("-- Con método .forEach() --");
+let sumForEach = 0
+grades.forEach(grade => {
+  sumForEach+=grade
+});
+console.log(sumForEach/grades.length);
+// Output: 8

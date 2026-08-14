@@ -19,14 +19,15 @@ positions.
 | 7   | `Array.prototype.find()`      | Find the first element that shares its initial letter with the previous one.             |
 | 8   | `Array.prototype.filter()`    | Extract only the numbers greater than the number that precedes them.                     |
 
-## for-vs-methods
+## methods-vs-for
 
-Side-by-side comparisons between the traditional `for` loop and each array
-method, to understand when a loop is equivalent (or not) to a method.
+Side-by-side comparisons between each array method and the traditional `for`
+loop, to understand when a method is equivalent (or not) to a loop.
 
 | #   | File                | Comparison                                 |
 | --- | ------------------- | ------------------------------------------ |
-| 1   | `for-vs-forEach.js` | `for` loop vs `Array.prototype.forEach()`. |
+| 1   | `forEach-vs-for.js` | `Array.prototype.forEach()` vs `for` loop. |
+| 2   | `forOf-vs-for.js`   | `for...of` loop vs `for` loop.             |
 
 ## Getting Started
 
@@ -42,8 +43,9 @@ js-arrays/
 ├── 01-forEach.js          # Method reference files
 ├── 02-map.js
 ├── 03-findIndex.js
-├── for-vs-methods/        # for loop vs array method comparisons
-│   └── for-vs-forEach.js
+├── methods-vs-for/        # array methods vs for loop comparisons
+│   ├── forEach-vs-for.js
+│   └── forOf-vs-for.js
 ├── exercises/             # Exercise sheets
 │   └── array-exercises.js
 └── README.md
