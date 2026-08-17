@@ -92,3 +92,30 @@ grades.forEach(grade => {
 });
 console.log(sumForEach/grades.length);
 // Output: 8
+
+// Ejercicio 5: Obtener la nota mínima y máxima
+const mathGrades = [ 6.5, 8, 9, 10, 7.5 ];
+
+console.log("-- Con ciclo for --");
+let min = mathGrades[0];
+let max = mathGrades[0];
+
+for (let i = 1; i < mathGrades.length; i++) {
+  if( mathGrades[i] < min ){ min = mathGrades[i] }
+  if( mathGrades[i] > max ){ max = mathGrades[i] }
+}
+
+console.log({min},{max});
+// Output: { min: 6.5 } { max: 10 }
+
+console.log("-- Con método .forEach() --");
+let minForEach = mathGrades[0];
+let maxForEach = mathGrades[0];
+
+mathGrades.forEach( grade =>{
+  if( grade < minForEach ){ minForEach = grade }
+  if( grade > maxForEach ){ maxForEach = grade }
+});
+
+console.log({minForEach},{maxForEach});
+// Output: { minForEach: 6.5 } { maxForEach: 10 }
