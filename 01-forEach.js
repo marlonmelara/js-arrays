@@ -1,7 +1,6 @@
-// .forEach
+// CONCEPT: .forEach Ejecuta una función proporcionada una vez por cada elemento del array.  Siempre retorna undefined, por lo que no permite encadenar (chaining).
 // Sintaxis: arr.forEach(callback(currentValue[, index[, array]])[, thisArg])
-// Descripción: Ejecuta una función proporcionada una vez por cada elemento del array.  Siempre retorna undefined, por lo que no permite encadenar (chaining).
-// Notas: No se debe usar forEach si se quiere crear un nuevo array; para eso es mejor map.
+// NOTE: No se debe usar forEach si se quiere crear un nuevo array; para eso es mejor map.
 // Es genérico: puede usarse con objetos array-like, no solo con instancias de Array. El thisArg no aplica si el callback es una arrow function (usa el this léxico).
 
 

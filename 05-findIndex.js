@@ -1,7 +1,6 @@
-// .findIndex()
-// arr.findIndex(callback( element[, index[, array]] )[, thisArg])
-// Descripción: Devuelve el índice del primer elemento que cumple con la condición. Si no encuentra, devuelve -1.
-// Notas: Si necesitas el índice en lugar del valor, usa findIndex. Se detiene en el primer elemento que cumple la condición, aunque haya otros después que también la cumplan.
+// CONCEPT: .findIndex() Devuelve el índice del primer elemento que cumple con la condición. Si no encuentra, devuelve -1.
+// Sintaxis: arr.findIndex(callback( element[, index[, array]] )[, thisArg])
+// NOTE: Si necesitas el índice en lugar del valor, usa findIndex. Se detiene en el primer elemento que cumple la condición, aunque haya otros después que también la cumplan.
 // Igual que find(), sí visita índices vacíos en arrays dispersos (sparse arrays) — no los omite como forEach, map o filter.
 
 
