@@ -40,13 +40,19 @@ loop, to understand when a method is equivalent (or not) to a loop.
 
 ```
 js-arrays/
-├── 01-forEach.js          # Method reference files
+├── 00-test-arrays.js         # Test data (values() vs entries())
+├── 01-forEach.js             # Method reference files
 ├── 02-map.js
-├── 03-findIndex.js
-├── methods-vs-for/        # array methods vs for loop comparisons
+├── 03-filter.js
+├── 04-reduce.js
+├── 05-at.js
+├── 06-find.js
+├── 07-findIndex.js
+├── 08-findLast.js
+├── methods-vs-for/           # array methods vs for loop comparisons
 │   ├── forEach-vs-for.js
 │   └── forOf-vs-for.js
-├── exercises/             # Exercise sheets
+├── exercises/                # Exercise sheets
 │   └── array-exercises.js
 └── README.md
 ```
